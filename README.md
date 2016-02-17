@@ -11,3 +11,6 @@ my target deisgn goal.
 Since the output voltage of the conveter is set by a resistor ratio I decided
 to add a jumper-selectable output voltage. 12V were chosen because sometimes
 routers come with 12V 1A power supplies so this design should be upgrade-proof.
+
+NOTE: actually the maximum output current for 12V operation is a little lower
+than 500mA. So be careful to check the current draw of your device.
